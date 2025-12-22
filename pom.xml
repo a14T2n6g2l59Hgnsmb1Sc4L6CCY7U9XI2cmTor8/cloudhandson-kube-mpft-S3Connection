@@ -30,8 +30,7 @@
     </developers>
     <scm>
         <connection>scm:git:git://github.com/Thakur13/cloudhandson-kube-mpft-S3Connection.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/Thakur13/cloudhandson-kube-mpft-S3Connection.git
-        </developerConnection>
+        <developerConnection>scm:git:ssh://git@github.com/Thakur13/cloudhandson-kube-mpft-S3Connection.git</developerConnection>
         <tag>HEAD</tag>
         <url>https://github.com/Thakur13/cloudhandson-kube-mpft-S3Connection</url>
     </scm>
