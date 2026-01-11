@@ -9,7 +9,8 @@ on:
 jobs:
   build-and-deploy-in-dev:
     uses: a14T2n6g2l59Hgnsmb1Sc4L6CCY7U9XI2cmTor8/cloudhandson-eks-reusable-workflow/.github/workflows/build-and-deploy-in-dev.yaml@master
-    secrets: inherit
+    secrets:
+      GIT_PRIVATE_TOKEN: ${{ secrets.GIT_PRIVATE_TOKEN }}
     with:
       CLUSTER_NAME: "cloudhandson-mpft-dev"
       APPLICATION_ENV: "dev"
