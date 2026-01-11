@@ -1,7 +1,6 @@
 spring:
   application:
     name: S3Connection
-<<<<<<< HEAD
   r2dbc:
     name: mpft
     url: r2dbc:postgresql://localhost:5432
@@ -13,5 +12,4 @@ spring:
 
 server:
   port: 8083
-=======
->>>>>>> 5a1cba0 (Added Spring Boot setup)
+
