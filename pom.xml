@@ -38,20 +38,20 @@
         <java.version>21</java.version>
     </properties>
 
-    <profiles>
-        <profile>
-            <id>CODEARTIFACT_REPOSITORY_ID</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <repositories>
-                <repository>
-                    <id>CODEARTIFACT_REPOSITORY_ID</id>
-                    <url>CODEARTIFACT_REPOSITORY_URL</url>
-                </repository>
-            </repositories>
-        </profile>
-    </profiles>
+<!--    <profiles>-->
+<!--        <profile>-->
+<!--            <id>CODEARTIFACT_REPOSITORY_ID</id>-->
+<!--            <activation>-->
+<!--                <activeByDefault>true</activeByDefault>-->
+<!--            </activation>-->
+<!--            <repositories>-->
+<!--                <repository>-->
+<!--                    <id>CODEARTIFACT_REPOSITORY_ID</id>-->
+<!--                    <url>CODEARTIFACT_REPOSITORY_URL</url>-->
+<!--                </repository>-->
+<!--            </repositories>-->
+<!--        </profile>-->
+<!--    </profiles>-->
 
     <dependencies>
         <dependency>
@@ -155,12 +155,12 @@
         </repository>
     </distributionManagement>
 
-    <repositories>
-        <repository>
-            <id>CODEARTIFACT_REPOSITORY_ID</id>
-            <name>CODEARTIFACT_REPOSITORY_NAME</name>
-            <url>CODEARTIFACT_REPOSITORY_URL</url>
-        </repository>
-    </repositories>
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <id>CODEARTIFACT_REPOSITORY_ID</id>-->
+<!--            <name>CODEARTIFACT_REPOSITORY_NAME</name>-->
+<!--            <url>CODEARTIFACT_REPOSITORY_URL</url>-->
+<!--        </repository>-->
+<!--    </repositories>-->
 
 </project>
