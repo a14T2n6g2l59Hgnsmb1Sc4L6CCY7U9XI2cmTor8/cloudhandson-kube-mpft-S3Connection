@@ -12,5 +12,5 @@ jobs:
     secrets: inherit
     #      GIT_PRIVATE_TOKEN: ${{ secrets.GIT_PRIVATE_TOKEN }}
     with:
-      CLUSTER_NAME: "cloudhandson-mpft-dev"
+      CLUSTER_NAME: "mpft"
       APPLICATION_ENV: "dev"

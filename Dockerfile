@@ -6,7 +6,7 @@ RUN addgroup -S lnxUser && adduser -S lnxUser -G lnxUser && \
 USER lnxUser:lnxUser
 
 ## To use this dependency
-## mkdir -p target/dependency && (cd target/dependency; jar -xf ../libs/*.jar)
+## mkdir -p target/dependency && (cd target/dependency; jar -xf ../*.jar)
 
 ARG DEPENDENCY=target/dependency
 
