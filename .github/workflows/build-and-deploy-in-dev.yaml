@@ -13,4 +13,5 @@ jobs:
     with:
       CLUSTER_NAME: "mpft"
       APPLICATION_ENV: "dev"
+
     #      GIT_PRIVATE_TOKEN: ${{ secrets.GIT_PRIVATE_TOKEN }}
