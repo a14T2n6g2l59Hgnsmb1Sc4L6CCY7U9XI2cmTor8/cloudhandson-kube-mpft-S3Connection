@@ -1,0 +1,11 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: OCIRepository
+metadata:
+  name: s3-connection
+  namespace: flux-system
+spec:
+  interval: 5m
+  provider: aws
+  ref:
+    tag: latest
+  url: oci://263529367083.dkr.ecr.ap-south-1.amazonaws.com/eks/dev/mpft/s3-connection/s3-connection
